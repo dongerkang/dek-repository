@@ -1,0 +1,55 @@
+$#ejHmQwS*FSC2CA
+Pig#x2811
+
+pingxiaoli   msi-china123
+
+
+
+东新区商务外环路24号人保大厦1604室
+邮政编码：450000
+
+
+
+Z0168270020230000008
+Z0168270020230000009
+Z0168270020230000010
+
+
+以下单子出单时间是今年的，属于新数据，请开发确认。
+
+-- T0150270020230000091  T0150270020230000094  T0259270020230001405
+select t.inputdate,t.sumquantity,t.policytype from nvproposal.prptmain t where t.proposalno = 'T0259270020230001405';
+
+
+select t.subinsuredcount,t.maininsuredcount from nvproposal.prptmaincasualty t where t.proposalno = 'T0259270020230001405';
+
+
+
+
+1089818
+【2700】【承保】【生产环境】【总公司】T0256270020220000099 审核通过后，feign超时，工作流没回写数据没送收付
+当日处理方案：查出缺少工作流的单子，给开发确认。是否送收付送再保，是否生成保单。
+
+1102216
+【2700】【投保】【生产环境】被保险人人数没校验对，主被保险人数为50，被保人人数为0
+当日处理方案：系统有缺陷导致的问题，筛选出渠道单子，是渠道的联系胜佳给渠道处理
+
+密码规则修改成 带数字带字母的
+用户账号长度限制100
+
+
+Swissre+123
+
+NocarEFileMapperImpl
+
+
+
+
+
+
+基础包：http://scm.zking.com/zking/cloud-native/developer/framework/public-base-parent
+项目包：http://scm.zking.com/core-optimization-group/prpall/zking-electronic-document.git
+
+
+
+
